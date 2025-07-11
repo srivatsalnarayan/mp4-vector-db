@@ -74,11 +74,7 @@ pip install numpy faiss-cpu requests
 
 Make sure Ollama is running locally and exposes `/api/embeddings`.
 
-### Run indexing pipeline
 
-```python
-python main.py  # Or your chosen entry script
-```
 
 ### Query and search
 
@@ -86,11 +82,7 @@ The system supports fast top-k similarity search with metadata + text resolution
 
 ---
 
-## 🚧 Future Roadmap
 
--
-
----
 
 ## 👏 Credits
 
