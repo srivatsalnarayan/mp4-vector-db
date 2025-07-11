@@ -1,0 +1,45 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
+
+# Ignore Conda environment folder (adjust name if different)
+.env/
+.venv/
+conda_env/
+env/
+*.conda
+*.env
+*.egg-info/
+
+# Ignore VSCode and Jupyter stuff
+.vscode/
+*.jupyter/
+*.DS_Store
+
+# Ignore common log/output files
+*.log
+*.out
+*.tmp
+*.bak
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore specific folders (edit as needed)
+failed_attmpts/
+
+# Ignore model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+
+
+
+# Keep this folder (override ignore) — example
+!important_folder/
+
