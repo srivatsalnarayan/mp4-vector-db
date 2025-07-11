@@ -23,17 +23,17 @@ The final `oidx` block is placed at the end of the file, acting as a footer inde
 
 ```mermaid
 graph TD
-    A[Document Record #0] --> A1[vct1: Embedding Vector]
-    A --> A2[json: Metadata JSON]
-    A --> A3[txt1: Original Text]
+    A[Document Record 0] --> A1[vct1 Embedding Vector]
+    A --> A2[json Metadata JSON]
+    A --> A3[txt1 Original Text]
 
-    B[Document Record #1] --> B1[vct1: Embedding Vector]
-    B --> B2[json: Metadata JSON]
-    B --> B3[txt1: Original Text]
+    B[Document Record 1] --> B1[vct1 Embedding Vector]
+    B --> B2[json Metadata JSON]
+    B --> B3[txt1 Original Text]
 
-    C[... more records ...]
+    C[More Records]
 
-    D[oidx: Offset Index (JSON)]
+    C --> D[oidx Offset Index JSON]
 
 ```
 
